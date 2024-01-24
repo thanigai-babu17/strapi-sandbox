@@ -11,6 +11,7 @@ ENV TRANSFER_TOKEN_SALT=5gMiGIg0JA+m/NG9FyFlhA==
 ENV DATABASE_CLIENT=postgres
 ENV DATABASE_URL=postgresql://thanigai:hSBrLPCgH5T7@ep-yellow-star-a15lbyh7.ap-southeast-1.aws.neon.tech/sandbox-db?sslmode=require
 ENV JWT_SECRET=ia9D6SEZSE+GLwhtdS8DQA==
+ENV NODE_ENV=production
 COPY . .
 
 RUN npm install
